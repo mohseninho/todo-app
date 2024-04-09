@@ -1,0 +1,37 @@
+.todo{
+    width: 85%;
+    height: 65px;
+    background-color: chocolate;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin: 4px 0px;
+    cursor: pointer;
+}
+
+.todoMessage{
+    flex: 5;
+    margin: 0px 15px;
+}
+
+.actions{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.actions div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5px;
+}

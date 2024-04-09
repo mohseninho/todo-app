@@ -1,0 +1,64 @@
+.main{
+    background: linear-gradient(to bottom right, rgb(255, 210, 120) 11.2%, rgb(90, 230, 100) 100.2%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(to bottom right , rgba(255,255,255,0.7) , rgba(255,255,255,0.3));
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.inputBar{
+    width: 90%;
+    height: 60px;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    flex: 4;
+    height: 100%;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+    text-indent: 18px;
+}
+
+.saveBtn{
+    flex: 1;
+    height: 100%;
+    border: none;
+    border-radius: 0px 25px 25px 0px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.input,.saveBtn{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.todoContainer{
+    width: 100%;
+    max-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: scroll;
+}
